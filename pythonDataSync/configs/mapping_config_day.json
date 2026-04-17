@@ -1,0 +1,13 @@
+{
+    "description": "每日业绩目标字段映射 (从 CSV 到 crm_kpi_shop_emp_day)",
+    "table_name": "crm_kpi_shop_emp_day",
+    "fixed_values": {
+        "status": 1
+    },
+    "mapping": {
+        "日期": "kpi_date",
+        "销区经理": "shop_emp_name",
+        "经理ID": "shop_emp_id",
+        "当日目标(元)": "sale_ok_amount_plan"
+    }
+}

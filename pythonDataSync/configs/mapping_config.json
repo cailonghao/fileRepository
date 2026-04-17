@@ -1,0 +1,34 @@
+{
+    "description": "Excel 列名到数据库字段名的映射",
+    "table_name": "crm_kpi_shop_month",
+    "fixed_values": {
+        "year": 2026,
+        "status": 1
+    },
+    "mapping": {
+        "客户号": "erp_shop_code",
+        "客户名称": "erp_shop_name",
+        "客户督导": "shop_emp_name",
+        "客户督导ID": "shop_emp_id",
+        "新老客户区分": "erp_shop_type",
+        "月份": "month",
+        "信息入口督导": "valid_customer_shop_emp_name",
+        "信息入口督导ID": "valid_customer_shop_emp_id",
+        "信息入口占比": "valid_customer_pct",
+        "邀约到店督导": "go_shop_shop_emp_name",
+        "邀约到店督导ID": "go_shop_shop_emp_id",
+        "邀约到店占比": "go_shop_pct",
+        "成交率提升督导": "sale_ok_amount_shop_emp_name",
+        "成交率提升督导ID": "sale_ok_amount_shop_emp_id",
+        "成交率提升占比": "sale_ok_amount_pct",
+        "门店经营规划督导": "manage_shop_emp_name",
+        "门店经营规划督导ID": "manage_shop_emp_id",
+        "门店经营规划占比": "manage_pct",
+        "GL100落地督导": "gl100_shop_emp_name",
+        "GL100落地督导ID": "gl100_shop_emp_id",
+        "GL100落地占比": "gl100_pct",
+        "招聘督导": "hr_shop_emp_name",
+        "招聘督导ID": "hr_shop_emp_id",
+        "招聘占比": "hr_pct"
+    }
+}

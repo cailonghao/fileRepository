@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+temp_uploads/*
+resources/*.csv
+resources/*.xlsx
+.git/
+.gitignore
+.vscode/

@@ -1,0 +1,11 @@
+pandas
+openpyxl
+sqlalchemy
+mysql-connector-python
+python-dotenv
+pydantic
+fastapi
+uvicorn
+python-multipart
+
+
