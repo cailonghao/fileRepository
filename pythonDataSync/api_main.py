@@ -11,9 +11,19 @@ from datetime import datetime
 from tasks.sync_monthly_main import sync_monthly, sync_monthly_from_csv
 from tasks.generate_daily_targets import generate_daily_targets
 from tasks.sync_daily_to_db import sync_daily
+from fastapi.middleware.cors import CORSMiddleware
 from core.config import settings
 
 app = FastAPI(title="Python Data Sync API", description="数据同步项目 FastAPI 服务")
+
+# 添加跨域支持
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # 允许所有来源
+    allow_credentials=True,
+    allow_methods=["*"],  # 允许所有方法 (GET, POST, etc.)
+    allow_headers=["*"],  # 允许所有请求头
+)
 
 # 确保临时目录存在
 TEMP_DIR = "temp_uploads"
