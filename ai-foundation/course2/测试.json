@@ -1,0 +1,182 @@
+[
+  {
+    "id": "TASK-001",
+    "category": "Software Development",
+    "topic": "Backend Refactoring",
+    "content": "后端架构组已完成对 Spring Cloud 微服务的整合，引入了 Seata 处理分布式事务。本次重构提升了 20% 的系统响应速度。",
+    "metrics": {
+      "performance_gain": "20%",
+      "status": "Completed"
+    },
+    "sentiment": "Positive",
+    "kpi_tag": "Efficiency"
+  },
+  {
+    "id": "TASK-002",
+    "category": "Project Management",
+    "topic": "ERP KPI Module",
+    "content": "ERP 系统中 cai-erpKpi 分支的代码合并请求已由主程序员通过。该模块支持自动计算部门绩效，减少了手动核算的工作量。",
+    "metrics": {
+      "automation_level": "High",
+      "status": "Merged"
+    },
+    "sentiment": "Positive",
+    "kpi_tag": "Innovation"
+  },
+  {
+    "id": "TASK-003",
+    "category": "DevOps",
+    "topic": "Cluster Monitoring",
+    "content": "K3s 集群在周一凌晨出现资源争抢，Loki 日志显示 API Server 响应延迟。经过调整 Helm Chart 的资源限制（Limits），服务恢复正常。",
+    "metrics": {
+      "downtime": "15 minutes",
+      "status": "Resolved"
+    },
+    "sentiment": "Negative",
+    "kpi_tag": "Stability"
+  },
+  {
+    "id": "TASK-004",
+    "category": "Game Engineering",
+    "topic": "Unity RTS Logic",
+    "content": "ChopChop 项目中实现了基于 Flow Field 的 2D RTS 寻路算法，但在处理超过 500 个单位并发移动时，帧率下降至 30FPS 以下。",
+    "metrics": {
+      "fps_drop": "Low",
+      "unit_count": 500
+    },
+    "sentiment": "Neutral",
+    "kpi_tag": "Optimization_Needed"
+  },
+  {
+    "id": "TASK-005",
+    "category": "Human Resources",
+    "topic": "Employee Onboarding",
+    "content": "新入职的后端开发人员（1993年出生，男）已完成环境配置。其选用的 Lenovo 工作站运行流畅，已开始负责简单的 Bug 修复。",
+    "metrics": {
+      "onboarding_progress": "80%",
+      "status": "In Progress"
+    },
+    "sentiment": "Positive",
+    "kpi_tag": "General"
+  },
+  {
+    "id": "TASK-006",
+    "category": "Infrastructure",
+    "topic": "Database Tuning",
+    "content": "生产环境数据库的 CPU 占用率持续达到 90%，初步判断是复杂的嵌套查询未命中索引。需要介入 SQL 优化。",
+    "metrics": {
+      "cpu_load": "90%",
+      "status": "Alert"
+    },
+    "sentiment": "Critical",
+    "kpi_tag": "Technical_Debt"
+  },
+  {
+    "id": "TASK-007",
+    "category": "Quality Assurance",
+    "topic": "Automated Testing",
+    "content": "本周自动化测试覆盖率提升至 65%，但 React Native 前端部分的单元测试依然缺失严重，需要后续补齐。",
+    "metrics": {
+      "coverage": "65%",
+      "status": "Improving"
+    },
+    "sentiment": "Neutral",
+    "kpi_tag": "Quality"
+  },
+  {
+    "id": "TASK-008",
+    "category": "Creative Writing",
+    "topic": "Novel Development",
+    "content": "完成了《仙侠世界》主角安正明的修为体系设定，逻辑上基于能量守恒定律，目前已整理 5000 字大纲。",
+    "metrics": {
+      "word_count": 5000,
+      "status": "Drafting"
+    },
+    "sentiment": "Positive",
+    "kpi_tag": "Creativity"
+  },
+  {
+    "id": "TASK-009",
+    "category": "Safety",
+    "topic": "Firewall Policy",
+    "content": "防火墙拦截了多起来自外部的恶意 SQL 注入尝试。安全审计建议升级 Spring Boot 相关的安全补丁。",
+    "metrics": {
+      "threats_blocked": 12,
+      "status": "Secure"
+    },
+    "sentiment": "Positive",
+    "kpi_tag": "Security"
+  },
+  {
+    "id": "TASK-010",
+    "category": "Administration",
+    "topic": "Team Meeting",
+    "content": "半年度 KPI 总结会议推迟至下周三。请各部门负责人提前在 Excel 中导出解析好的统计数据。",
+    "metrics": {
+      "delay_days": 7,
+      "status": "Scheduled"
+    },
+    "sentiment": "Neutral",
+    "kpi_tag": "Coordination"
+  },
+  {
+    "id": "TASK-011",
+    "category": "Software Development",
+    "topic": "Flutter UI Bug",
+    "content": "在 Flutter 桌面端发现了一个极度隐蔽的内存泄漏问题，与 Riverpod 的 Provider 生命周期管理有关。",
+    "metrics": {
+      "memory_leak": "30MB/h",
+      "status": "Investigating"
+    },
+    "sentiment": "Negative",
+    "kpi_tag": "Quality"
+  },
+  {
+    "id": "TASK-012",
+    "category": "Finance",
+    "topic": "Budget Review",
+    "content": "财务部通知本季度服务器带宽费用超出预期 15%，主要由于 Loki 日志存储未开启分级存储导致的。",
+    "metrics": {
+      "over_budget": "15%",
+      "status": "Review"
+    },
+    "sentiment": "Critical",
+    "kpi_tag": "Cost_Control"
+  },
+  {
+    "id": "TASK-013",
+    "category": "Technical Writing",
+    "topic": "API Documentation",
+    "content": "Swagger 文档已更新至最新版本，现在所有前端同事都可以直接在线测试 Python 微服务的接口逻辑。",
+    "metrics": {
+      "completeness": "100%",
+      "status": "Updated"
+    },
+    "sentiment": "Positive",
+    "kpi_tag": "Efficiency"
+  },
+  {
+    "id": "TASK-014",
+    "category": "Maintenance",
+    "topic": "Hardware Upgrade",
+    "content": "由于现有服务器运行 Unreal Engine 5 渲染服务压力过大，计划采购两台配备 RTX 4090 的算力节点。",
+    "metrics": {
+      "estimated_cost": "¥40,000",
+      "status": "Pending"
+    },
+    "sentiment": "Neutral",
+    "kpi_tag": "Infrastructure"
+  },
+  {
+    "id": "TASK-015",
+    "category": "Strategy",
+    "topic": "Product Roadmap",
+    "content": "CEO 确定了下半年的核心目标是进军海外市场，ERP 系统需要紧急适配多语言及不同国家的时区逻辑。",
+    "metrics": {
+      "priority": "P0",
+      "status": "In Planning"
+    },
+    "sentiment": "Neutral",
+    "kpi_tag": "Strategic_Alignment"
+  }
+]
